@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.goback{
+  position: fixed;
+  background-color: black;
+  color: rgb(251, 245, 245);
+  top: 85%;
+  left: 90%;
+  padding: 1%;
+  height: max-content;
+  width: max-content;
+  box-sizing: border-box;
+  border-radius: 25% 10%;
+}
+body {
+  padding-bottom: 3%;
+}
+.companylogo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(240, 233, 233);
+  font-size: 20px;
+  background-color: rgb(240, 233, 233);
+  padding: 10px;
+  border-radius: 12px;
+}
+.home {
+  text-align: center;
+  width: 150px;
+  font-size: larger;
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  gap: 14px;
+  padding-left: 13%;
+}
+.iconImg {
+  width: 30px;
+}
+.Titlepage {
+  height: max-content;
+  background-image: url(/image/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.companyname {
+  font-size: 60px;
+  margin-left: 7%;
+  padding-top: 5%;
+}
+.starting {
+  font-size: 30px;
+  color: white;
+  width: 50%;
+  display: flex;
+  gap: 10%;
+  height: 70px;
+  text-indent: 10px;
+  margin-left: 6%;
+  align-items: center;
+}
+.Joinnow {
+  border-radius: 15px;
+  background-color: black;
+  padding: 5px;
+  width: 30%;
+  text-align: center;
+}
+.startshoping {
+  border-radius: 15px;
+  background-color: rgb(76, 161, 50);
+  padding: 5px;
+  width: 40%;
+  text-align: center;
+}
+.Price {
+  margin-left: 7%;
+  margin-top: 2%;
+  display: flex;
+  padding-top: 4px;
+  font-size: 45px;
+  gap: 45px;
+}
+.Pricecautation {
+  font-size: 0.5em;
+}
+.impofweb {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 7%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.impofweb div {
+  display: flex;
+  padding: 2%;
+}
+
+.impofweb p {
+  font-size: large;
+  width: 70%;
+  margin: 4%;
+}
+.category {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.category h1 {
+  width: 80%;
+}
+.category p {
+  font-size: large;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(53, 186, 113);
+}
+.category button {
+  background-color: rgb(56, 69, 74);
+  padding: 2px;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.product {
+  display: flex;
+  overflow-x: scroll;
+}
+.product div {
+  margin: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.product div img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.BestSelling {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2%;
+}
+.productcard {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  padding: 2%;
+  width: 300px;
+  text-wrap: wrap;
+}
+
+.productcard:hover {
+  background-color: rgb(235, 230, 230);
+  box-shadow: 5px 5px 10px -1px rgba(28, 24, 24, 0.781);
+}
+
+.productcard img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9/10;
+}
+#button {
+  padding: 3% 2%;
+  size: 100%;
+}
+#button:hover {
+  background-color: rgba(157, 157, 139, 0.386);
+}
+#button2:hover {
+  background-color: rgb(247, 164, 34);
+}
+#button img {
+  text-align: center;
+  height: 80%;
+  width: 70%;
+}
+#shopingcart img {
+  height: 10px;
+  width: 15px;
+}
+#shopingcart {
+  justify-content: left;
+}
+#amount {
+  width: 30px;
+  height: 28px;
+  border-radius: 7px;
+  border: 1px solid rgb(175, 172, 172);
+  padding: 3%;
+  font-size: medium;
+}
+
+.Advertisement {
+  display: flex;
+  /* border: 3px solid black; */
+  height: max-content;
+}
+.banner1 {
+  /* border: 3px solid pink; */
+  background-image: url(/image/banner-ad-1.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  padding: 3%;
+  width: 80%;
+  height: 27rem;
+  background-size: cover;
+}
+
+.banner1 h3 {
+  margin-top: 20%;
+  font-size: 45px;
+}
+
+.banner2and3 {
+  width: 40%;
+  color: white;
+  /* border: 3px solid rebeccapurple; */
+  display: grid;
+}
+
+.banner2-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 4%;
+  padding-top: 4%;
+}
+.banner2-3 h3 {
+  font-size: xx-large;
+}
+#banner2 {
+  /* border: 3px solid red; */
+  background-image: url(/image/banner-ad-2.jpg);
+}
+#banner3 {
+  /* border: 3px solid rebeccapurple; */
+  background-image: url(/image/banner-ad-3.jpg);
+}
+
+.banner2-3 h3 {
+  margin-top: 5%;
+  font-size: 45px;
+}
+
+.boxx1 {
+  width: 100px;
+  height: 5px;
+  background-color: rgba(155, 155, 155, 0.904);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(197, 14, 14) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  background-size: 200% 100%;
+  background-position: right; /* Initially aligned to the left */
+  transition: background-position 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hoveronme:hover .boxx1 {
+  background-position: left; /* Move the background to the right on hover */
+}
+
+.hoveronme {
+  font-size: x-large;
+}
+.discount {
+  margin: 1% 0%;
+  font-size: x-large;
+}
